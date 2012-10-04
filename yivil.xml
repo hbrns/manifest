@@ -16,10 +16,9 @@ work.
 
 <project path="yivil" name="hbrns/yivil" remote="github" />
 
-<project path="yivil/meta-openembedded" name="meta-openembedded" remote="oe" />
-<project path="yivil/bitbake" name="openembedded/bitbake" remote="github" />
-<project path="yivil/oe-core" name="openembedded/oe-core" remote="github" />
-<project path="yivil/meta-oe" name="openembedded/meta-oe" remote="github" />
+<project path="yivil/.oe-core" name="openembedded-core" remote="oe" />
+<project path="yivil/.meta-openembedded" name="meta-openembedded" remote="oe" />
+<project path="yivil/bitbake" name="bitbake" remote="oe" />
 
 <project path="yivil/meta-ivi" name="meta-ivi" remote="yp" />
 <project path="yivil/meta-systemd" name="meta-systemd" remote="yp" />
