@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="yp"
+           fetch="git://git.yoctoproject.org" />
+  <default revision="master"
+           remote="origin" />
+
+  <notice>
+repo init -m (null).xml is no longer supported, nor expected to fully
+work.
+  </notice>
+
+<project path="poky" name="poky" remote="git.yoctoproject.org" />
+
+</manifest>
