@@ -11,7 +11,7 @@ work.
   </notice>
 
 <project path="yivil/poky" name="poky" remote="yp" >
-    <copyfile src="bitbake" dest="bitbake" />
+    <copyfile src="oe-init-build-env" dest="yivil/joker" />
 </project>
 <project path="yivil/meta-ti" name="meta-ti" remote="yp" />
 <project path="yivil/meta-ivi" name="meta-ivi" remote="yp" />
