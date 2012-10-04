@@ -10,8 +10,9 @@ repo init -m (null).xml is no longer supported, nor expected to fully
 work.
   </notice>
 
-<project path="yivil/poky" name="poky" remote="yp" />
-<project path="yivil/bitbake" name="poky/bitbake" remote="yp" />
+<project path="yivil/poky" name="poky" remote="yp" >
+    <copyfile src="bitbake" dest="bitbake" />
+</project>
 <project path="yivil/meta-ti" name="meta-ti" remote="yp" />
 <project path="yivil/meta-ivi" name="meta-ivi" remote="yp" />
 <project path="yivil/meta-systemd" name="meta-systemd" remote="yp" />
