@@ -3,7 +3,7 @@
   <remote  name="yp"
            fetch="git://git.yoctoproject.org" />
   <default revision="master"
-           remote="origin" />
+           remote="yp" />
 
   <notice>
 repo init -m (null).xml is no longer supported, nor expected to fully
