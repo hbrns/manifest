@@ -10,6 +10,6 @@ repo init -m (null).xml is no longer supported, nor expected to fully
 work.
   </notice>
 
-<project path="poky" name="poky" remote="git.yoctoproject.org" />
+<project path="poky" name="poky" remote="yp" />
 
 </manifest>
