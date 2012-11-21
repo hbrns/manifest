@@ -21,7 +21,6 @@ work.
 <project path="yivil/bitbake" name="bitbake" remote="oe" />
 
 <project path="yivil/meta-ivi" name="meta-ivi" remote="yp" />
-<project path="yivil/.meta-systemd" name="meta-systemd" remote="yp" />
 
 <project path="yivil/meta-ti" name="meta-ti" remote="yp" />
 <project path="yivil/meta-raspberrypi" name="djwillis/meta-raspberrypi" remote="github" />
